@@ -1,0 +1,18 @@
+# Easy shell shortcuts
+alias la='ls -A'
+alias ll='ls -lh'
+
+# Load bash file quickly
+alias bashrc='vim ~/.bashrc'
+alias lb='source ~/.bashrc'
+
+# Change directories quickly
+alias home='cd ~'
+
+# Git Commands
+alias gpo='git push origin master'
+alias gp='git pull'
+alias gs='git status'
+alias glo='git log --oneline'
+alias gl='git log'
+alias gpr='git pull --rebase'
