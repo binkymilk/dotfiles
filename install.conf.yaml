@@ -8,6 +8,8 @@
 - link:
     ~/.bashrc: 
     ~/.shells: shells
+    ~/.vim_runtime/my_configs.vim: vim/my_configs.vim
+    ~/.tmux.conf:
 
 - shell:
     - git submodule sync --recursive
