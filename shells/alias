@@ -16,3 +16,12 @@ alias gs='git status'
 alias glo='git log --oneline'
 alias gl='git log'
 alias gpr='git pull --rebase'
+alias gb='git branch --all'
+alias gfp='git fetch --prune'
+
+# Virtual Environment Commands
+alias venv='source venv/bin/activate'
+
+# Postgresql Commands
+alias pgstart='pg_ctl -D /usr/local/var/postgres start'
+alias pgstop='pg_ctl -D /usr/local/var/postgres stop'
