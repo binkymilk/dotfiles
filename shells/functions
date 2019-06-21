@@ -10,6 +10,10 @@ function gco(){
     git checkout $1
 }
 
+function gcb(){
+    git checkout -b $1
+}
+
 function revert(){
     git reset --hard $1
 }
