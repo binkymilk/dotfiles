@@ -18,6 +18,10 @@ function gpo(){
     git push origin $1 
 }
 
+function gbd(){
+    git branch -D $1
+}
+
 
 # get current branch in git repo
 function parse_git_branch() {
