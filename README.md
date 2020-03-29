@@ -16,3 +16,8 @@ Load `.bashrc` and `.bash_profile` contents.
 source ~/.bashrc
 source ~/.bash_profile
 ```
+
+For Mac PCs, turn off login in terminal.
+```shell
+touch .hushlogin
+```
